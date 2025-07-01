@@ -451,3 +451,21 @@ body {
 .hero-image {
   justify-content: center;
 }
+
+.btn-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
